@@ -47,10 +47,10 @@ public class UserServiceImpl implements UserService {
      */
     @Override
     public void removeUser(String username) {
-        System.out.println("delete Username:" + username);
+       
 
         for (int i = 0; i < users.size(); i++) {
-            System.out.println(users.get(i)+"=="+username);
+          
             if (users.get(i).getUsername().equals(username)) {
                 users.remove(i);
             }
