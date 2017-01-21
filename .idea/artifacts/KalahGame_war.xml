@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="KalahGame:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="kalahgame.war">
+      <element id="artifact" artifact-name="KalahGame:war exploded" />
+    </root>
+  </artifact>
+</component>
